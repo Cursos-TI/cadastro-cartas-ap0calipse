@@ -1,5 +1,5 @@
 #include <stdio.h>      
-#include <string.h>
+#include <string.h>              //biblioteca para usar funções string (strcspn).
 
 int main() {
 
@@ -8,7 +8,7 @@ int main() {
     char cidade[30], cidade2[30];         //declarar variaveis "cidade" para usar como string.   
     int populacao, populacao2;            //declarar variaveis "populacao" com objetivo de usar como quantidade. 
     float area, area2;                    //declarar variaveis "area" com objetivo de tamanho/medida.
-    float pib, pib2;                      //declarar variaveis "pib" com objetivo de usar mediçao financeira.
+    double pib, pib2;                      //declarar variaveis "pib" com objetivo de usar mediçao financeira.
     int pnts_turistico, pnts_turistico2;   //quantidade inteira de pontos turisticos.
 
 
